@@ -1,0 +1,31 @@
+.navbar-brand label{
+    padding: 0;
+}
+
+.navbar-brand label:hover {
+    cursor: pointer;
+}
+
+.navbar-brand #black {
+    color: rgb(255, 27, 187);
+    background: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand #pink {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 27, 187);
+    font-size: 24px;
+    font-weight: 800;
+    padding-right: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+

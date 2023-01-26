@@ -1,0 +1,20 @@
+.manage-user-container {
+  padding: 10px;
+  .title {
+    h3 {
+      color: black;
+    }
+  }
+
+  .user-content {
+    button.btn-add-user {
+      gap: 5px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    .table-users {
+      margin-top: 40px;
+    }
+  }
+}

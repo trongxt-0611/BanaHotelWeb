@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Kalam");
+body {
+  background-image: url("../../assets/images/background.png");
+  //background-color: black;
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.login-form {
+  position: relative;
+  height: 560px;
+  width: 405px;
+  margin: auto;
+  padding: 10px 60px;
+  background-size: cover;
+  background-color: transparent;
+
+  .login-title {
+    font-family: "Kalam", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 132px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  .login-field {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 90px;
+    font-size: 20px;
+  }
+  p.error-line {
+    color: red;
+  }
+}
+
+form {
+  padding-top: 40px;
+  background-color: transparent;
+}
+
+input[type="text"],
+input[type="password"] {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+input {
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.login-input {
+  align-items: center;
+  border: none;
+  width: 70%;
+  padding: 10px 20px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid rgba(255, 255, 255, 0);
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.login-input:focus {
+  outline: 0;
+  background: rgba(0, 0, 0, 0);
+}
+
+.login-input:focus + span {
+  opacity: 0.6;
+}
+
+.login-icon {
+  color: #ffffff;
+  padding-left: 24px;
+}
+
+.login-btn {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  background-color: #1161ed;
+  color: #fff;
+  width: 100%;
+  padding: 10px 20px;
+  height: 60px;
+  border-radius: 90px;
+  margin-top: 30px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  justify-items: center;
+}
+
+.login-btn:hover {
+  background: #4082f5;
+  box-shadow: 0px 4px 35px -5px #4082f5;
+  cursor: pointer;
+}
+
+.login-btn:focus {
+  outline: none;
+}
+
+.login-logo {
+  position: absolute;
+  left: 5.15%;
+  top: 5.05%;
+}
+
+.login-logo p {
+  color: #fff;
+  font-family: "Kalam";
+  font-size: 18px;
+  font-weight: 400;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.login-btn-default {
+  display: flex;
+  width: 72px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+.login-button:focus {
+  outline: none;
+}
+
+.login-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.link-btn {
+  display: block;
+  background: none;
+  color: white;
+  text-decoration: underline;
+  border: none;
+  margin-top: 12px;
+  margin-left: 41%;
+  font-size: 16px;
+  justify-content: center;
+}

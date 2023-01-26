@@ -1,0 +1,49 @@
+.manage-hotel-container {
+  padding: 10px;
+  .title {
+    h3{
+      color: black;
+    }
+  }
+  .hotel-content {
+    button.btn-add-hotel {
+      gap: 5px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    .table-hotels {
+      margin-top: 20px;
+    }
+  }
+}
+.modal-add-hotel {
+  .img-preview {
+    border: 1px dashed rebeccapurple;
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(201, 201, 201);
+    img {
+      max-width: 150px;
+      max-height: 150px;
+      padding: 2px;
+    }
+  }
+  .label-upload {
+    gap: 5px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+    background-color: #eeee;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(206, 206, 206, 0.933);
+    }
+  }
+}

@@ -1,0 +1,250 @@
+
+.profile {
+  font-family: 'Inter';
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-image: url() !important;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+
+}
+
+/* Scroll Bar */
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(66, 66, 66, 0.2);
+  border: 0px;
+  background-clip: padding-box;
+  border-radius: 5px;
+}
+
+
+
+/* Avatar */
+.avatar {
+  position: relative;
+  margin-bottom: 0;
+  height: 3rem;
+  width: 3rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+.wrapper form .avatar-profile {
+  display: flex!important;
+  flex-direction: row;
+  border-radius: 30% !important;
+  height: 10rem;
+  width: 10rem;
+  border: 0.5px solid ;
+}
+
+.rounded-circle {
+  border-radius: 30% !important;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.upload-btn {
+  color: #fff;
+  background-color: #A7FFAB;
+}
+
+.upload-icon {
+  font-size: 1.5rem;
+}
+
+/* User Profile */
+.title {
+  display: flex;
+  color: white;
+  font-size: 50px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.user-info h4 {
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  margin-top: 2rem;
+}
+
+.user-info p {
+  display: flex;
+  font-size: 2rem;
+  color: white;
+  background-color:rgba(239, 206, 255, 0.4);
+  border: 1px solid #e3e3e3;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.user-info .text {
+  font-size: 1.1rem;
+  color: black;
+  border: 1px solid #e3e3e3;
+  border-radius: 30px;
+}
+
+#edit_profile {
+  background-color: #fa9c23;
+  border-color: #fa9c23;
+  margin-left: 21%;
+  font-size: 20px;
+}
+
+#change_password {
+  margin-left: 25%;
+  font-size: 20px;
+}
+
+#submit-change-password {
+  margin-left: 18%;
+}
+
+label {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+
+.wrapper {
+  height: 100%;
+  width: 200%;
+}
+
+.wrapper form .btn {
+  background-color: #4ABEFF;
+  border-color: #4ABEFF;
+  color: white;
+  border-radius: 20px;
+  padding: 4% 8% 4% 8%;
+  margin-left: 25%;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+form {
+  padding-top: 20px;
+  background-color: transparent;
+}
+
+.profile-form {
+  position: relative;
+  height: 100%;
+  width: 500px;
+  margin: auto;
+  padding: 10px 60px;
+  background-size: cover;
+  background-color: transparent;
+}
+
+.profile-field {
+  position: relative;
+  background-color: rgba(239, 206, 255, 0.4);
+  /* backdrop-filter: blur(22.031px); */
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center!important;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+input {
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+
+.input-control {
+  align-items: center;
+  border: none;
+  width: 90%;
+  font-size: 14px;
+  padding: 10px 20px;
+  color: black!important;
+  background: rgba(255, 255, 255, 0);
+  margin-right: 10px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.input-control:focus {
+  outline: 0;
+  background: rgba(0, 0, 0, 0);
+}
+
+.input-control:focus + span {
+  opacity: 0.6;
+}
+
+.profile-icon {
+  color: #A50EDA;
+  justify-items: right;
+}
+
+.file-input {
+  /* padding-top: 7.5rem; */
+  justify-content: center;
+  display: flex;
+}
+
+.file-input__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  /* position: absolute; */
+  z-index: -1;
+}
+
+.file-input__label {
+  cursor: pointer;
+  align-items: center;
+  color: #fff;
+  background-color: #4ABEFF;
+  padding: 12px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.file-input__label svg {
+  height: 16px;
+  /* margin-right: 4px; */
+}
+
+.avt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

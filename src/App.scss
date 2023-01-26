@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+}
+.app-container {
+  .header-container {
+    .navbar {
+      .nav-link {
+        &.active {
+          color: pink;
+        }
+      }
+    }
+  }
+}
+.btn-login{
+  margin-right: 10px;
+}

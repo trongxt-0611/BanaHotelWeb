@@ -1,0 +1,140 @@
+@import url("https://fonts.cdnfonts.com/css/kalam");
+body {
+    background-image: url("../../assets/images/background.png");
+    // background-color: black;
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+     background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.register-form {
+  position: relative;
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  padding: 10px 60px;
+  background-size: cover;
+  background-color: transparent;
+  text-align: center;
+
+  h1{
+    font-family: "Kalam", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 132px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  p.error-line {
+    color: red;
+  }
+
+
+
+}
+
+.logo {
+  position: absolute;
+  left: 5.15%;
+  top: 5.05%;
+}
+
+.logo p {
+  color: #fff;
+  font-family: "Kalam";
+  font-size: 18px;
+  font-weight: 400;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form {
+  padding-top: 40px;
+  background-color: transparent;
+}
+
+input[type="text"],
+input[type="password"] {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+input {
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.r-input {
+  align-items: center;
+  border: none;
+  width: 70%;
+  padding: 10px 20px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid rgba(255, 255, 255, 0);
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.r-input:focus {
+  outline: 0;
+  background: rgba(0, 0, 0, 0);
+}
+
+.r-input:focus + span {
+  opacity: 0.6;
+}
+
+.user-detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-detail .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 90px;
+  font-size: 20px;
+}
+
+.icon {
+  color: #ffffff;
+  padding-left: 24px;
+}
+
+.register-btn{
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  background-color: #1161ed;
+  color: #fff;
+  width: 30%;
+  padding: 10px 20px;
+  height: 60px;
+  border-radius: 90px;
+  margin-top: 30px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  justify-items: center;
+}
+
+.register-btn:hover {
+  background: #4082f5;
+  box-shadow: 0px 4px 35px -5px #4082f5;
+  cursor: pointer;
+}
+
+.register-btn:focus {
+  outline: none;
+}

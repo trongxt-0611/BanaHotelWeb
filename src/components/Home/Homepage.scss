@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css?family=Kalam");
+@import url("https://fonts.googleapis.com/css?family=Inter");
+.body-homepage{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    .user{
+        text-align: right;
+    
+        p {
+            float: right;
+            color: white;
+        }
+        
+        img {
+            width: 24px;
+            height: 24px;
+            //float: right;
+        }
+    
+        
+    }
+    
+    .cover{
+        width: 100%;
+        height: 410px; 
+        position: relative;
+        left: 0px;
+        top: -2px;
+        // background-image: url(https://www.hoteljob.vn/files/Pic/Th%C3%A1ng%204/Khach-san-la-gi-01.jpg);
+        
+        background: linear-gradient(0deg, rgba(4, 12, 19, 0.8), rgba(4, 12, 19, 0.8)), url(https://www.hoteljob.vn/files/Pic/Th%C3%A1ng%204/Khach-san-la-gi-01.jpg);
+        border-radius: 0px 0px 40px 40px;
+        background-size: cover;
+        
+    
+        .logo {
+            position: absolute;
+            left: 5.15%;
+            top: 5.05%;
+          }
+          .logo p {
+            color: #fff;
+            font-family: "Kalam";
+            font-size: 18px;
+            font-weight: 400;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          }
+        .wn{
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            color: white;
+            font-family: 'Kalam';
+            
+            
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            position: absolute;
+            top: 50%;
+            font-size: 50px;
+            transform: translateY(-60%);
+        }
+        
+        .search{
+            width: 100%;
+            height: fit-content;
+            text-align: center;
+            position: absolute;
+            //top: 55%;
+            bottom: 10px;
+            
+            transform: translateY(-70%);
+            
+            
+            .box {
+                //width: 70%;
+                height: 40px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                background: rgba(255, 255, 255, 0.4);
+                border-radius: 10px;
+                //padding: 10px;
+    
+                .keyword{
+                    width: 400px;
+                    height: 40px;
+                    //background: rgba(255, 255, 255, 0.4);
+                    background:none;
+                    //backdrop-filter: blur(22.031px);
+                    border-radius: 10px;
+                    border: none;
+                    float: left;
+                    //padding: 0;
+                    color: #FFFFFF;
+                    font-size: 15px;
+                    transition: 0.4s;
+                    line-height: 40px;
+                    
+                    
+                }
+                #sbutton {
+                    margin-top: 3px;
+                    
+                    color: #2659C3;
+                    float: right;
+                    width: 60px;
+                    height: 35px;
+                    border-radius: 10px;
+                    background: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    transition: 0.4s;
+                    border: none;
+                }
+            }
+            .ct{
+                height: 40px;
+                position: absolute;
+                top: 50%;
+                right: 25%;
+                transform: translate(-50%,-50%);
+                border-radius: 10px;
+                background: rgba(255, 255, 255, 0.7);
+                border: 2px solid #4C1B73;
+                
+            }   
+        }
+        
+    }
+    
+    h1{
+        margin-top: 20px;
+        font-family: 'Julee';
+        font-style: normal;
+        text-align: center;
+        color: #4C1B73;
+        font-size: 50px;
+    }
+    // .a{
+    //     .hotel{
+    //         // width: 300px;
+    //         // height: 100px;
+    //         //display: flex;
+    //     }
+        
+    //     .cardHotel{
+    //         width: 200px;
+    //         height: 200px;
+        
+    //         img{
+    //             width: 50px;
+    //             height: 50px;
+    //         }
+    //     }
+        
+    // }
+    
+    .home-hotel{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        background-color: #959595;
+        .control {
+            color: white;
+            
+            #prev {
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                top: 50%;
+                font-size: 20px;
+                transform: translateY(-50%);
+                border: none;
+                left: 10px;
+                background-color: #6c6aee;
+                color: white;
+                border: none;
+                border-radius: 50%;
+                transition: 1s ease;
+              }
+              #prev:hover{
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+                transition: .25s ease;
+                box-shadow: 0px 4px 35px -5px #4082f5;
+              }
+            #next {
+                position: absolute;
+                top: 50%;
+                font-size: 20px;
+                transform: translateY(-50%);
+                border: none;
+                //margin-left: 1430px;
+                width: 40px;
+                height: 40px;
+                right: 10px;
+                background-color: #6c6aee;
+                color: white;
+                border: none;
+                border-radius: 50%;
+                transition: 1s ease;
+              }
+              #next:hover{
+                -webkit-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                transform: scale(1.2);
+                transition: .25s ease;
+                box-shadow: 0px 4px 35px -5px #4082f5;
+              }
+        }
+        
+        .card-hotel{
+            margin-left: 65px;
+            padding: 10px;
+            // padding-left: 80px;
+            //width: 370px;
+            width: 15%;
+            height: 400px;
+            position: relative;
+            transition: 1s ease;
+            box-shadow: 0px 25.697px 72.8081px rgba(59, 77, 129, 0.08);
+            border-radius: 10px;
+            img{
+                
+                margin-top: 10px;
+                margin-left: 3px;
+                width: 200px;
+                height: 120px;
+                border-radius: 10px;
+                
+            }
+            h2{
+                color: #4A60A1;
+                font-family: "Inter";
+                font-size: 15px;
+                margin-left: 15px;
+            }
+            h3{
+                margin-top: 10px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 25px;
+                margin-left: 15px;
+                // font-family: "Inter";
+                // font-size: 40px;
+            }
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                margin-left: 15px;
+                
+            }
+            #stars{
+                position: absolute;
+                right: 20px;
+                bottom: 0.1px;
+                color: #2659C3;
+                margin-left: 15px;
+            }
+            #des{
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                margin-left: 15px;
+                font-size: 14px;
+            }
+        }
+        .card-hotel:hover{
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+            transition: 1s ease;
+            cursor: pointer;
+        }
+        background: white;
+    }
+    .dih{
+        padding: 20px;
+        background-color: #FFFFFF;
+    }
+}

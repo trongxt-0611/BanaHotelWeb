@@ -1,0 +1,21 @@
+.admin-container {
+  background-color: white;
+  display: flex;
+  .admin-sidebar {
+    min-height: 120vh;
+    .pro-sidebar {
+      height: 100% !important;
+    }
+  }
+  .admin-content {
+    width: 100%;
+    .admin-header {
+      .collapse-toggle {
+        margin-right: 30px;
+      }
+    }
+
+    .admin-main {
+    }
+  }
+}

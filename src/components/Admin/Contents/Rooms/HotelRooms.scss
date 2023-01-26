@@ -1,0 +1,28 @@
+.hotel-rooms-container {
+  padding: 10px;
+
+  .header {
+    button {
+      span {
+        margin-right: 3px;
+      }
+    }
+  }
+  .title {
+    h3 {
+      color: black;
+    }
+  }
+
+  .room-content {
+    button.btn-add-room {
+      gap: 5px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    .table-rooms {
+      margin-top: 40px;
+    }
+  }
+}
